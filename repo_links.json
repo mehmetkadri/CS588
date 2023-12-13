@@ -1,0 +1,128 @@
+{
+    "popular_repos":[
+        {
+            "link": "freeCodeCamp/freeCodeCamp",
+            "stars": "379k"
+        },
+        {
+            "link": "public-apis/public-apis",
+            "stars": "271k"
+        },
+        {
+            "link": "tensorflow/tensorflow",
+            "stars": "179k"
+        },
+        {
+            "link": "winsw/winsw",
+            "stars": "10.6k"
+        },
+        {
+            "link": "aosp-mirror/platform_frameworks_base",
+            "stars": "10.5k"
+        },
+        {
+            "link": "usebruno/bruno",
+            "stars": "9.3k"
+        },
+        {
+            "link": "mgechev/javascript-algorithms",
+            "stars": "7.8k"
+        },
+        {
+            "link": "PyMySQL/PyMySQL",
+            "stars": "7.5k"
+        },
+        {
+            "link": "olivierlacan/keep-a-changelog",
+            "stars": "5.8k"
+        },
+        {
+            "link": "nhn/tui.chart",
+            "stars": "5.3k"
+        }
+    ],
+    "medium_repos":[
+        {
+            "link": "marcj/css-element-queries",
+            "stars": "4.3k"
+        },
+        {
+            "link": "google/google-api-javascript-client",
+            "stars": "2.9k"
+        },
+        {
+            "link": "Foliotek/Croppie",
+            "stars": "2.5k"
+        },
+        {
+            "link": "NExT-GPT/NExT-GPT",
+            "stars": "2.5k"
+        },
+        {
+            "link": "justquick/django-activity-stream",
+            "stars": "2.3k"
+        },
+        {
+            "link": "krzysztofzablocki/Bootstrap",
+            "stars": "2.1k"
+        },
+        {
+            "link": "Azure/azure-sdk-for-java",
+            "stars": "2.1k"
+        },
+        {
+            "link": "go-bootstrap/go-bootstrap",
+            "stars": "1.6k"
+        },
+        {
+            "link": "nathancahill/Anycomplete",
+            "stars": "1.5k"
+        },
+        {
+            "link": "deschler/django-modeltranslation",
+            "stars": "1.3k"
+        }
+    ],
+    "small_repos":[
+        {
+            "link": "django-ses/django-ses",
+            "stars": "946"
+        },
+        {
+            "link": "FarmBot/Farmbot-Web-App",
+            "stars": "837"
+        },
+        {
+            "link": "egorsmkv/simple-django-login-and-register",
+            "stars": "781"
+        },
+        {
+            "link": "BenLangmead/bowtie2",
+            "stars": "588"
+        },
+        {
+            "link": "ArizArmeidi/FlutterWeather",
+            "stars": "246"
+        },
+        {
+            "link": "schedutron/flask-common",
+            "stars": "229"
+        },
+        {
+            "link": "sngrl/php-firebase-cloud-messaging",
+            "stars": "221"
+        },
+        {
+            "link": "synacktiv/CVE-2023-35001",
+            "stars": "145"
+        },
+        {
+            "link": "bmorelli25/Twitter-Favorite-Bot",
+            "stars": "125"
+        },
+        {
+            "link": "blockcypher/gobcy",
+            "stars": "51"
+        }
+    ]
+}
