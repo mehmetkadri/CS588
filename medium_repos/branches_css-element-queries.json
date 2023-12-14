@@ -1,0 +1,1 @@
+{"feature/object-sensor": ["2016-02-02T14:50:06Z", "Added object sensor variant, but its too slow in the initialization step", false], "gh-pages": ["2019-10-02T15:43:20Z", "Update index.html (#278)", false], "master": ["2020-07-03T15:51:03Z", "Add a Size interface to the typings (#293)\n\nCo-authored-by: Maksym Kobieliev <kobieliev@extedo.com>", false]}

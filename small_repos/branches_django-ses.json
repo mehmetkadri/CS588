@@ -1,0 +1,1 @@
+{"bug/match-version": ["2016-03-08T17:12:13Z", "Update version in __init__.py\n\nSo it matches setup.py", false], "main": ["2023-12-01T19:37:17Z", "Added project URLs for PyPI (#305)\n\n* Added project URLs for PyPI\r\n\r\n* Revert changes to check if Pipeline works again\r\n\r\n* Readded changes\r\n\r\n* Adjusted urls to poetry style", true]}

@@ -1,0 +1,20 @@
+{
+    "popular_repos":[
+        {
+            "link": "freeCodeCamp/freeCodeCamp",
+            "stars": "379k"
+        }
+    ],
+    "medium_repos":[
+        {
+            "link": "marcj/css-element-queries",
+            "stars": "4.3k"
+        }
+    ],
+    "small_repos":[
+        {
+            "link": "django-ses/django-ses",
+            "stars": "946"
+        }
+    ]
+}

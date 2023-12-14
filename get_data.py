@@ -7,14 +7,14 @@ medium_repos = []
 small_repos = []
 
 
-with open('repo_links.json') as f:
+with open('repo_links_.json') as f:
     data = json.load(f)
     popular_repos = data['popular_repos']
     medium_repos = data['medium_repos']
     small_repos = data['small_repos']
 
-for repo in popular_repos:
-    print(repo['link'])
+#for repo in popular_repos:
+#    print(repo['link'])
 #    print(repo['stars'])
 
 def get_forks(project_name):
@@ -62,7 +62,7 @@ def get_stars(project_name):
     return
 
 def get_commits(project_name):
-    commits = []
+    commits = {}
     page_count = 1
     print(project_name.split('/')[1] + "'s commits:")
     while page_count>0:
@@ -87,7 +87,7 @@ def get_commits(project_name):
     return
 
 def get_issues(project_name):
-    issues = []
+    issues = {}
     page_count = 1
     print(project_name.split('/')[1] + "'s issues:")
     while page_count>0:
@@ -111,7 +111,7 @@ def get_issues(project_name):
     return
 
 def get_branches(project_name):
-    branches = []
+    branches = {}
     page_count = 1
     print(project_name.split('/')[1] + "'s branches:")
     while page_count>0:
@@ -156,7 +156,7 @@ def get_readme_content(project_name, sha):
 def get_commit_readme_changes(project_name):
     readme_changes = {}
     page_count = 1
-    print(project_name.split('/')[1] + "'s commits:")
+    print(project_name.split('/')[1] + "'s commits that changed readme:")
     while page_count>0:
         print("Commits numbered " + str((page_count-1)*100) + " to " + str(page_count*100) + " are being fetched.")
         try:
@@ -184,14 +184,15 @@ if not os.path.exists('popular_repos'):
     os.makedirs('popular_repos')
 os.chdir('popular_repos')
 
+
 for repo in popular_repos:
-    get_forks(repo['link'])
-    get_stars(repo['link'])
-    get_commits(repo['link'])
-    get_issues(repo['link'])
     get_branches(repo['link'])
     get_commit_readme_changes(repo['link'])
-    get_readme_content(repo['link'])
+    get_issues(repo['link'])
+    get_forks(repo['link'])
+    get_commits(repo['link'])
+    get_stars(repo['link'])
+#    get_readme_content(repo['link'])
 
 os.chdir('..')
 
@@ -202,13 +203,13 @@ if not os.path.exists('medium_repos'):
 os.chdir('medium_repos')
 
 for repo in medium_repos:
-    get_forks(repo['link'])
-    get_stars(repo['link'])
-    get_commits(repo['link'])
-    get_issues(repo['link'])
     get_branches(repo['link'])
     get_commit_readme_changes(repo['link'])
-    get_readme_content(repo['link'])
+    get_issues(repo['link'])
+    get_forks(repo['link'])
+    get_commits(repo['link'])
+    get_stars(repo['link'])
+#    get_readme_content(repo['link'])
 
 os.chdir('..')
 
